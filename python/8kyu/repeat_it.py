@@ -6,10 +6,10 @@ The function should return a string that repeats the input string n number of ti
 If anything other than a string is passed in you should return "Not a string"
 """
 
-def repeat_it(string, n):
-    if string == "" or string == []:
+def repeat_it(myStr, n):
+    if (type(myStr) != str):
         return "Not a string"
-    return str(string) * n
+    return str(myStr) * n
     
 
 
