@@ -8,6 +8,7 @@ Return True if yes, False otherwise :)
 def hero(bullets, dragons):
     if bullets >= dragons:
         return True 
+        
     else: 
         return False
 
