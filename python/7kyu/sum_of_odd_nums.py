@@ -13,12 +13,22 @@ row_sum_odd_numbers(2); # 3 + 5 = 8
 
 """
 
-def row_sum_odd_numbers(n):
+def row_sum_odd_numbers(n):       
+   total = 0
+
+   for num in range(n):
+      if num % 2 != 0:
+         total = total + num
+         
+   return total
+
 
 
 
 
 
 if __name__ == "__main__":
+   # print("Odwa")
+   print(row_sum_odd_numbers(1))
     
 
